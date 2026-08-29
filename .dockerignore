@@ -1,0 +1,16 @@
+.git
+.gitignore
+.gitattributes
+.env
+.dockerignore
+docker-compose.yml
+*.md
+__pycache__
+*.pyc
+chatbot_data/
+test_dashboard.html
+
+# Data dosyaları (Google Drive'dan indirilecek)
+gymble_api/FoodData_Central_sr_legacy_food_json_2018-04.json
+gymble_api/nutrition_cache.json
+Chatbotv2/Datasets/

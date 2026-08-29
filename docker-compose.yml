@@ -1,0 +1,20 @@
+services:
+  gymble:
+    build: .
+    container_name: gymble_service
+    ports:
+      - "7860:7860"
+    env_file:
+      - .env
+    environment:
+      - PORT=7860
+    volumes:
+      - chatbot_data:/app/chroma_db
+    deploy:
+      resources:
+        limits:
+          memory: 1536M
+          cpus: "1.0"
+
+volumes:
+  chatbot_data:

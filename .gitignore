@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+test_dashboard.html
+
+# Data (Google Drive'dan indirilir)
+gymble_api/FoodData_Central_sr_legacy_food_json_2018-04.json
+gymble_api/nutrition_cache.json
+Chatbotv2/Datasets/
+
+# ChromaDB local data
+chatbot_data/
+
+# IDE
+.vscode/
+.idea/
